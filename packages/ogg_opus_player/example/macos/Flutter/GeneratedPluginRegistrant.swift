@@ -6,7 +6,7 @@ import FlutterMacOS
 import Foundation
 
 import ogg_opus_player
-import path_provider_macos
+import path_provider_foundation
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   OggOpusPlayerPlugin.register(with: registry.registrar(forPlugin: "OggOpusPlayerPlugin"))
